@@ -44,6 +44,10 @@
     font-size: 18px;
 }
 
+.text-center {
+    text-align: center;
+}
+
 /* header styles */
 .header {
     background-image: url(../images/developer.png), url(../images/header_bg.png);
@@ -132,4 +136,55 @@ main {
 
 .item-description {
     font-weight: bold;
+}
+
+/* what I do styles */
+.what-i-do {
+    padding: 115px 130px 50px 130px;
+}
+
+/* skills section styles */
+.skills-container {
+    width: 1140px;
+    display: flex;
+    gap: 24px;
+    margin-left: 0;
+}
+
+.skill {
+    padding: 30px;
+    box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-bottom: 130px;
+}
+
+/* resume styles */
+.resume-container {
+    display: flex;
+    gap: 24px;
+}
+
+.experience-title {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.experience-sub-title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.experience-description {
+    font-size: 16px;
+}
+
+.resume hr {
+    margin: 30px 5px;
+}
+
+.resume-download-cv {
+    margin-top: 50px;
 }
